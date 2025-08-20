@@ -12,7 +12,7 @@ git config --global user.email "tuco.cunzolo@gmail.com"
 #Comandos para adicionar commit
 ```bash
 Pasta -> Git init -> code./comandos.md (#Comandos.md)
-git status -> git add .arquivo -> git commit -m "comentario".git status -> git add .arquivo -> git commit -m "comentario".
+git status -> git add .arquivo -> git commit -m "comentario" -> git status -> git add .arquivo -> git commit -m "comentario".
 ```
 Dentro da pasta o comando git init será usado uma única vez!
 code .comandos.md abre a pasta no vscode 
