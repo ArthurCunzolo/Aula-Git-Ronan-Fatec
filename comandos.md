@@ -15,7 +15,7 @@ Pasta -> Git init -> code./comandos.md (#Comandos.md)
 git status -> git add .arquivo -> git commit -m "comentario" -> git status -> git add .arquivo -> git commit -m "comentario".
 ```
 ## Dentro da pasta o comando git init será usado uma única vez!
-> code .comandos.md abre a pasta no vscode 
-> git status serve para ver o status das pastas, se adicionadas ou não.
-> git add. arquivo ira adicionar o arquivo ao .git atualizado
-> git commit -m "comentario" ira deixar um comentario nessa atualização de arquivos para informar o seu do futuro onde parou ou o que necessita ser feito.
+> code .comandos.md abre a pasta no vscode <br>
+> git status serve para ver o status das pastas, se adicionadas ou não. <br>
+> git add. arquivo ira adicionar o arquivo ao .git atualizado <br>
+> git commit -m "comentario" ira deixar um comentario nessa atualização de arquivos para informar o seu do futuro onde parou ou o que necessita ser feito. <br>
