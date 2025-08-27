@@ -1,21 +1,50 @@
-# COMANDOS GIT
-## Neste arquivo será apresentado os comandos git para uso futuro.
+# Comandos Git
+Neste arquivo será apresentado os comandos git para uso futuro.
 
 ## No primeiro uso em um computador
-> Para que o git avise e saiba quem fez as alterações é necessário configurar o usuário nas configurações globais do git.
+Para que o GIT avise e saiba quem fez as alterações é necessário
+configurar o usuário nas configurações globais do git.
 ```bash
-git config --global user.name "Arthur Silva Cunzolo"
+git config --global user.name "Ronan Adriel Zenatti"
 
-git config --global user.email "tuco.cunzolo@gmail.com"
+git config --global user.email "ronan.zenatti@fatec.sp.gov.br"
 ```
 
-## Comandos para adicionar commit
+## Comandos para gestão do git
+Para inicializar uma pasta como repositório git usamos o comando init.
+Só utilizamos este comando 1 vez.
 ```bash
-Pasta -> Git init -> code./comandos.md (#Comandos.md)
-git status -> git add .arquivo -> git commit -m "comentario" -> git status -> git add .arquivo -> git commit -m "comentario".
+git init
 ```
-## Dentro da pasta o comando git init será usado uma única vez!
-> code .comandos.md abre a pasta no vscode <br>
-> git status serve para ver o status das pastas, se adicionadas ou não. <br>
-> git add. arquivo ira adicionar o arquivo ao .git atualizado <br>
-> git commit -m "comentario" ira deixar um comentario nessa atualização de arquivos para informar o seu do futuro onde parou ou o que necessita ser feito. <br>
+
+Para ver a situação do repositório utilizamos o comando status.
+Ele pode ser executado a qualquer momento para saber a situação da pasta.
+Se estiver vermelho precisa adicionar os arquivo, se estiver verde estão prontos 
+para salvar (commit).
+Se não aparecer nada, ou o arquivo não está salvo ou já está tudo ok.
+```bash
+git status
+```
+
+Para adicionar todos os arquivos modificados para serem versionados utilizamos o add
+**IMPORTANTE:** Tem que ser executado sempre que no status houver arquivos em vermelho
+```bash
+git add .
+```
+
+Para criar uma versão de tudo que foi modificado até aquele momento utilizamos o commit. <br>
+**IMPORTANTE:** no -m temos que colocar uma mensagem do porque estamos salvando.
+```bash
+git commit -m "Porque estou salvando estas alterações"
+```
+
+Git push envia os commits do pc para o Github
+```bash
+git push
+```
+
+
+PULL baixa todas as atualizações que o repositório tem no Github e não está no seu pc.
+```bash
+git pull
+```
